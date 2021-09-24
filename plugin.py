@@ -17,7 +17,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 """
-<plugin key="flipr" name="Flipr" author="yoyey" version="1.0.0" externallink="https://github.com/yoyey/domoticzFlipr">
+<plugin key="fliprfull" name="Fliprfull" author="yoyey" version="1.0.0" externallink="https://github.com/Erwanweb/fliprfull">
     <params>
         <param field="Username" label="Adresse e-mail" width="200px" required="true" default=""/>
         <param field="Password" label="Mot de passe" width="200px" required="true" default="" password="true"/>
