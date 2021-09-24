@@ -172,7 +172,7 @@ class BasePlugin:
         jsonData = self.getData()
         if self.lastDateTime != jsonData['DateTime']:
             Domoticz.Debug("Enregistrement des donnees" + str(jsonData) + " "+ str(jsonData['DateTime']))
-            dateTime = datetime.strptime(jsonData['DateTime'],"%Y-%m-%dT%H:%M:%SZ")
+            #dateTime = datetime.strptime(jsonData['DateTime'],"%Y-%m-%dT%H:%M:%SZ")
             tempVal = str(jsonData['Temperature'])
             self.createAndAddToDevice(1, tempVal, 80, 5)
             PHVal = str(jsonData['PH']['Value'])
