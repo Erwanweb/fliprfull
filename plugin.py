@@ -57,8 +57,8 @@ headerData = { 'Content-Type':'application/json', 'Authorization':''}
 devicesdef = [{'index':1, 'name':'Temperature', 'description':'Capteur de temperature', 'type':80, 'subType':5 },
               {'index':2, 'name':'Batterie', 'description':'niveau de batterie du capteur', 'type':243, 'subType':6},
               {'index':3, 'name':'Desinfectant', 'description':'Désinfectant', 'type':249, 'subType':19, 'image':'xfr_chlore.zip'},
-              {'index':4, 'name':'PH', 'description':'Ph', 'type':234, 'subType':31, 'image':'xfr_ph.zip'}
-              {'index':5, 'name':'Redox', 'description':'Redox', 'type':234, 'subType':31, 'image':'xfr_ph.zip'}
+              {'index':4, 'name':'PH', 'description':'Ph', 'type':234, 'subType':31, 'image':'xfr_ph.zip'},
+              {'index':5, 'name':'Redox', 'description':'Redox', 'type':234, 'subType':31, 'image':'xfr_ph.zip'},
               {'index':6, 'name':'Conductivite', 'description':'Conductivite', 'type':234, 'subType':31, 'image':'xfr_ph.zip'}]
 class BasePlugin:
     calculatePeriod = 30 # refresh time in minute
