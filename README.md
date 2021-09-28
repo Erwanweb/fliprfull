@@ -13,7 +13,7 @@ sudo apt-get install git
 
 git clone https://github.com/Erwanweb/fliprfull.git fliprfull
 
-cd SVT3
+cd fliprfull
 
 sudo chmod +x plugin.py
 
